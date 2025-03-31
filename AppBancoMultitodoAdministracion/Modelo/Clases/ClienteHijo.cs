@@ -8,6 +8,9 @@ using AppBancoMultitodoAdministracion.Recursos.Base_de_datos.Repositorio;
 
 namespace AppBancoMultitodoAdministracion.Modelo.Clases
 {
+   
+
+
     internal class ClienteHijo : PersonaPadre
     {
         public int edad { get; set; }
