@@ -1,0 +1,21 @@
+﻿<Window x:Class="AppBancoMultitodoAdministracion.Vista.VistaContabilidad.Transferir"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBancoMultitodoAdministracion.Vista.VistaContabilidad"
+        mc:Ignorable="d"
+        Title="Transferir" Height="450" Width="800">
+    <Grid>
+        <Label Content="Transferencia" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="303,58,0,0" VerticalAlignment="Top" Height="31" Width="183"/>
+        <Label Content="Cuenta Depositante:" HorizontalAlignment="Left" Margin="156,144,0,0" VerticalAlignment="Top" Height="35" Width="119"/>
+        <Label Content="Saldo:" HorizontalAlignment="Left" Margin="156,0,0,0" VerticalAlignment="Center" Height="35" Width="107"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="156,259,0,0" VerticalAlignment="Top" Height="35" Width="107"/>
+        <Label Content="Cuenta Beneficiario:" HorizontalAlignment="Left" Margin="150,337,0,0" VerticalAlignment="Top" Height="35" Width="119"/>
+        <TextBox Name="txt_cuenta" HorizontalAlignment="Left" Margin="280,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36" IsEnabled="False"/>
+        <TextBox Name="txt_saldo" HorizontalAlignment="Left" Margin="280,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36" IsEnabled="false"/>
+        <TextBox Name="txt_cantidad" HorizontalAlignment="Left" Margin="281,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36"/>
+        <TextBox Name="txt_beneficiario" HorizontalAlignment="Left" Margin="281,336,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36"/>
+        <Button Content="Transferir" HorizontalAlignment="Left" Margin="567,217,0,0" VerticalAlignment="Top" Height="37" Width="141" Click="Transaccionar"/>
+    </Grid>
+</Window>

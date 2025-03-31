@@ -1,0 +1,32 @@
+﻿<Window x:Class="AppBancoMultitodoAdministracion.Vista.VistaContabilidad.MenuContabilidad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBancoMultitodoAdministracion.Vista.VistaContabilidad"
+        mc:Ignorable="d"
+        Title="MenuContabilidad" Height="450" Width="800">
+    <Grid>
+        <Menu>
+
+            <MenuItem Header="Nuevo">
+
+                <MenuItem Header="Nuevo Cliente" Click="Ventana_Nuevo_Cliente"/>
+                <MenuItem Header="Nueva Cuenta" Click="Ventana_Nueva_Cuenta"/>
+                <MenuItem Header="Nueva Clave" Click="Ventana_Nueva_Clave_Cliente"/>
+            </MenuItem>
+            <MenuItem Header="Editar">
+                <MenuItem  Header="Editar Cliente" Click="Ventana_Editar_Cliente"></MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="Transferencia">
+
+                <MenuItem Header="Deposito" Click="Ventana_Deposito"></MenuItem>
+                <MenuItem Header="Retiro" Click="Ventana_Retiro"></MenuItem>
+                <MenuItem Header="Trasnferir" Click="Ventana_Transferencia"></MenuItem>
+            </MenuItem>
+
+
+        </Menu>
+    </Grid>
+</Window>

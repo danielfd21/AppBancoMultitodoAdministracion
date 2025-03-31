@@ -1,0 +1,19 @@
+﻿<Window x:Class="AppBancoMultitodoAdministracion.Vista.VistaContabilidad.DepositoCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBancoMultitodoAdministracion.Vista.VistaContabilidad"
+        mc:Ignorable="d"
+        Title="DepositoCliente" Height="450" Width="800">
+    <Grid>
+        <Label Content="Deposito" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="303,58,0,0" VerticalAlignment="Top" Height="31" Width="183"/>
+        <Label Content="Cuenta:" HorizontalAlignment="Left" Margin="156,144,0,0" VerticalAlignment="Top" Height="35" Width="107"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="156,0,0,0" VerticalAlignment="Center" Height="35" Width="107"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="156,259,0,0" VerticalAlignment="Top" Height="35" Width="107"/>
+        <TextBox Name="txt_cuenta" HorizontalAlignment="Left" Margin="263,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36" IsEnabled="False"/>
+        <TextBox Name="txt_saldo" HorizontalAlignment="Left" Margin="263,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36" IsEnabled="false"/>
+        <TextBox Name="txt_cantidad" HorizontalAlignment="Left" Margin="263,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" Height="36"/>
+        <Button Content="Depositar" HorizontalAlignment="Left" Margin="300,328,0,0" VerticalAlignment="Top" Height="28" Width="132" Click="Depositar"/>
+    </Grid>
+</Window>

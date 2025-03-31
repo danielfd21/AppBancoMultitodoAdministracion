@@ -1,0 +1,17 @@
+﻿<Window x:Class="AppBancoMultitodoAdministracion.Vista.VistaGerencia.RegistrarClave"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBancoMultitodoAdministracion.Vista.VistaGerencia"
+        mc:Ignorable="d"
+        Title="RegistrarClave" Height="450" Width="800">
+    <Grid>
+        <Label Content="Crear nueva clave" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="298,44,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Cedula:" HorizontalAlignment="Left" Margin="131,114,0,0" VerticalAlignment="Top" Width="122" Height="29"/>
+        <TextBox  Name="txt_ced"  HorizontalAlignment="Left" Margin="232,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" Height="32"/>
+        <TextBox  Name="txt_cla" HorizontalAlignment="Left" Margin="232,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" Height="125" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsEnabled="False"/>
+        <Button  Content="GENERAR CLAVE" HorizontalAlignment="Left" Margin="516,107,0,0" VerticalAlignment="Top" Height="39" Width="115" Click="Generar_Clave"/>
+        <Button  Content="COPIAR CLAVE" HorizontalAlignment="Left" Margin="516,243,0,0" VerticalAlignment="Top" Height="39" Width="115" Click="Copiar_Clave"/>
+    </Grid>
+</Window>
