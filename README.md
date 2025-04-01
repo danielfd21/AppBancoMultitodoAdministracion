@@ -12,6 +12,7 @@ https://youtu.be/yFs4Mf5HXGk
 
 
 Estas plataformas se activan segun el usuario y contraseña que se ingresa dentro de la App, a continuacion te detallo las caracteristicas de las plataformas:
+
 [GERENCIA]
 - Nuevo / Nuevo cliente - Nueva clave
 - Editar / Editar empleado - Eliminar empleado
